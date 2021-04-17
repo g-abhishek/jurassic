@@ -73,8 +73,7 @@ body{
 }
 .navbar_ul .navbar_item .nav_link:hover{
     font-weight: 900;
-    /* font-style: normal; */
-    /* color: red; */
+    font-style: normal;
 }
 
 .nav_contact_div{
