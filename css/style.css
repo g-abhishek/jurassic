@@ -119,7 +119,7 @@
 .about_section{
     height: 100vh;
     width: 100%;
-    background-image: url("../images/landingspage.png");
+    background-image: url("../images/aboutus.png");
 }
 .about_div, .contact_div{
     display: flex;
@@ -151,7 +151,7 @@
 .game_section{
     height: 100vh;
     width: 100%;
-    background-image: url("../images/contact.png");
+    background-image: url("../images/landingspage.jpg");
 }
 
 .game_center_bg{
