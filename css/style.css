@@ -1,0 +1,178 @@
+
+.home_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/landingspage.png");
+}
+.bars_div{
+    position: absolute;
+    background: #cccaca61;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2000;
+}
+.nav_icon{
+    width: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar_section{
+    position: absolute;
+    /* left: 100px; */
+    height: 100%;
+    width: 100%;
+    padding-left: 100px;
+}
+.navbar_div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+#navbar_container{
+    display: none;
+}
+.navbar_ul{
+    list-style: none;
+    /* display: none; */
+}
+/* .navbar_ul .navbar_item{
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+} */
+.navbar_ul .navbar_item .nav_link{
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4rem;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: font-weight .5s linear;
+}
+.navbar_ul .navbar_item .nav_link:hover{
+    font-weight: 900;
+    /* font-style: normal; */
+    /* color: red; */
+}
+
+.nav_contact_div{
+    position: absolute;
+    /* background: #cccaca61; */
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 4rem 0;
+    flex-direction: column;
+    align-items: center;
+    right: 0;
+}
+
+.landing_div, .game_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 12px;
+}
+.landing_img{
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+}
+.landing_content_div, .game_content_div{
+    margin: 2rem;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+.landing_para, .game_para{
+    line-height: 20px;
+}
+
+
+.page_link_name{
+    transform: rotate(-90deg);
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  color: white;
+  text-transform: uppercase;
+}
+
+.about_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/landingspage.png");
+}
+.about_div, .contact_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 12px;
+    margin-left: 150px;
+    color: white;
+    width: 450px;
+}
+.about_para, .contact_para{
+    font-size: 16px;
+}
+.page_header{
+    font-weight: 900;
+    font-size: 52px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/contact.png");
+}
+
+
+.game_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/contact.png");
+}
+
+.game_center_bg{
+    height: 400px;
+    width: 100%;
+    background-image: url("../images/volcano.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.corebox{
+    height: 400px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dino_img{
+    position: absolute;
+    left: -43px;
+    bottom: 0;
+    width: 57%;
+}
