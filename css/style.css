@@ -44,6 +44,8 @@ body{
     display: flex;
     align-items: center;
     height: 100%;
+    justify-content: space-between;
+    width: 100%;
 }
 #navbar_container{
     display: none;
@@ -51,7 +53,6 @@ body{
 .navbar_ul{
     list-style: none;
     /* margin-right: 200px; */
-    width: 800px;
     /* display: none; */
 }
 /* .navbar_ul .navbar_item{
