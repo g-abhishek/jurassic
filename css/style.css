@@ -1,14 +1,23 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 .home_section{
     height: 100vh;
     width: 100%;
     background-image: url("../images/landingspage.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 900px;
 }
 .bars_div{
     position: absolute;
     background: #cccaca61;
     width: 100px;
     height: 100%;
+    max-height: 900px;
     display: flex;
     justify-content: space-between;
     padding: 4rem 0;
@@ -33,14 +42,13 @@
     display: flex;
     align-items: center;
     height: 100%;
-    width: 100%;
-    justify-content: space-between;
 }
 #navbar_container{
     display: none;
 }
 .navbar_ul{
     list-style: none;
+    margin-right: 200px;
     /* display: none; */
 }
 /* .navbar_ul .navbar_item{
@@ -120,6 +128,9 @@
     height: 100vh;
     width: 100%;
     background-image: url("../images/aboutus.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 900px;
 }
 .about_div, .contact_div{
     display: flex;
@@ -145,6 +156,9 @@
     height: 100vh;
     width: 100%;
     background-image: url("../images/contact.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 900px;
 }
 
 
@@ -152,6 +166,9 @@
     height: 100vh;
     width: 100%;
     background-image: url("../images/landingspage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-height: 900px;
 }
 
 .game_center_bg{
